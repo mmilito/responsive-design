@@ -66,6 +66,7 @@
 .gallery_wrapper {
 	background-color:peachpuff;
 	margin:1.5em;
+	text-align: center;
 }
 .gallery_photo {
 	display: inline-block;
