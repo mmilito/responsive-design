@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+}
+
+.header_page_top {
+	background-color: olive;
+	max-width: 960px;
+	padding:.9em;
+	font-size: 1em;
+	margin-right: auto;
+	margin-left: auto;
+}
+.image_big{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 100%;
+	height:auto;
+}
+.header_page_top .header_one {
+	color:white;
+}
+.nav_horizontal {
+	max-width: 960px;
+	background-color: black;
+	text-decoration: none;
+	padding: 1em;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media screen and (max-width: 662px)  {
+	.nav_horizontal {
+		text-decoration: none;
+		padding: 1em;
+		}
+	.link {
+		display: block;
+		text-align: left;
+		}	
+	}
+.nav_horizontal .link{
+	text-decoration: none;
+	color: white;
+	padding:0 1em;
+}
+.page_container {
+	background-color: gray;
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+.page_center {
+	background-color: peachpuff;
+	margin-top:1.5em;
+	margin-right: 1.5em;
+	margin-bottom: 1.5em;
+	margin-left: 1.5em; 
+}    	
+.content {
+	padding: 1em;
+}
+.gallery_wrapper {
+	background-color:peachpuff;
+	margin:1.5em;
+}
+.gallery_photo {
+	display: inline-block;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	margin-top:1.5em;
+	margin-right: auto;
+	margin-bottom: 1.5em;
+	margin-left: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+
